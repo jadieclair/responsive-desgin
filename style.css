@@ -86,3 +86,87 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .email-link {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .contact-header {
+    font-size: 20px;
+  }
+
+  .email-link {
+    font-size: 14px;
+  }
+
+  .img-fluid {
+    margin-top: 30px;
+  }
+
+  .yogurt {
+    margin-bottom: 20px;
+  }
+
+  .primary-link,
+  .secondary-link {
+    font-size: 16px;
+    padding: 10px 12px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .primary-link,
+  .secondary-link {
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h3 {
+    font-size: 12px;
+  }
+
+  .primary-link,
+  .secondary-link {
+    font-size: 12px;
+    padding: 8px 5px;
+  }
+
+  .yoga {
+    margin-top: 1px;
+  }
+}
